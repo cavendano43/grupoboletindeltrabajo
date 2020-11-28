@@ -1,3 +1,5 @@
+const Contenidos=require('../models/Contenidos');
+
 class DocumentosController {
 
     static async documentos(req,res){
@@ -6,7 +8,7 @@ class DocumentosController {
         res.json(documentos);
     }
     
-    static async documentosdetalle (req,res){
+    static async documentosdetalles (req,res){
         const id=req.params.id;
        
         const documentos=await Contenidos.findById(id);

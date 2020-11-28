@@ -10,8 +10,11 @@ router.get("/",(peticion,respuesta)=>{
 })
 
 /////////////////////// portal de soluciones ///////////////////
-router.post("/calculo-finiquito",FiniquitoController.calculo);
+router.get("/documento/:area",DocumentosController.documentos);
+router.get("/documentos/:id",DocumentosController.documentosdetalles);
+
+/*router.post("/calculo-finiquito",FiniquitoController.calculo);
 router.post("/carta-finiquito",FiniquitoController.cartaAviso);
-router.post("/generar-finiquito",FiniquitoController.finiquito);
+router.post("/generar-finiquito",FiniquitoController.finiquito);/*/
 
 module.exports = router
