@@ -2,7 +2,7 @@ const express = require('express')
 const router = express.Router()
 var multer  = require('multer');
 /////////////////////////// controllers ///////////////////////
-const FiniquitoController = require("../controllers/FiniquitoController");
+
 const DocumentosController = require("../controllers/DocumentosController");
 
 router.get("/",(peticion,respuesta)=>{
