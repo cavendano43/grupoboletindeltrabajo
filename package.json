@@ -1,0 +1,30 @@
+{
+  "name": "grupoboletindeltrabajo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Carlos Avendaño",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.799.0",
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "html-pdf": "^2.2.0",
+    "moment": "^2.29.1",
+    "mongoose": "^5.10.17",
+    "multer": "^1.4.2",
+    "nodemailer": "^6.4.16",
+    "nodemon": "^2.0.6",
+    "transbank-sdk": "^1.0.2",
+    "utf8": "^3.0.0",
+    "uuid": "^3.3.2"
+  }
+}
